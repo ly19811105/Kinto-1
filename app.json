@@ -1,14 +1,14 @@
 {
-    "name": "Heroku",
-    "description": "Heroku",
-    "keywords": ["Heroku"],
+    "name": "v2-heroku",
+    "description": "deploy v2ray tor on heroku",
+    "keywords": ["v2ray"],
     "env": {
         "UUID": {
-            "description": "UUID",
+            "description": "v2ray UUID",
             "value": "c95ef1d4-f3ac-4586-96e9-234a37dda068"        
         }
     },
-    "website": "https://github.com/wujiyu305/Kinto",
-    "repository": "https://github.com/wujiyu305/Kinto",
+    "website": "https://starts.sh",
+    "repository": "https://github.com/yeahwu/v2-heroku",
     "stack": "container"
 }
