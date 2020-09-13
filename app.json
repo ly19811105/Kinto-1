@@ -1,14 +1,18 @@
 {
-    "name": "v2-heroku",
-    "description": "deploy v2ray tor on heroku",
-    "keywords": ["v2ray"],
+    "name": "Heroku",
+    "description": "Heroku",
+    "keywords": ["Heroku"],
     "env": {
         "UUID": {
-            "description": "v2ray UUID",
+            "description": "UUID",
             "value": "c95ef1d4-f3ac-4586-96e9-234a37dda068"        
+        },
+        "PATH": {
+            "description": "WebSocket Path",
+            "value": "/"        
         }
     },
-    "website": "https://starts.sh",
-    "repository": "https://github.com/yeahwu/v2-heroku",
+    "website": "https://github.com/wujiyu305/Kinto",
+    "repository": "https://github.com/wujiyu305/Kinto",
     "stack": "container"
 }
