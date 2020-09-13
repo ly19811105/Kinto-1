@@ -6,7 +6,7 @@ cat << EOF > /etc/config.json
     "inbounds": [
         {
             "port": $PORT,
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "clients": [
                     {
@@ -15,7 +15,10 @@ cat << EOF > /etc/config.json
                 ]
             },
             "streamSettings": {
-                "network": "ws"
+                "network": "ws",
+                "wsSettings": {
+                  "path": "/ARSync"
+                }
             }
         }
     ],
