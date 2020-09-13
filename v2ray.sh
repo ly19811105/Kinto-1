@@ -8,6 +8,7 @@ cat << EOF > /etc/config.json
             "port": $PORT,
             "protocol": "vless",
             "settings": {
+                "decryption": "none",
                 "clients": [
                     {
                         "id": "$UUID"
