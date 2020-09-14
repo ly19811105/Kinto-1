@@ -7,14 +7,14 @@
                 "decryption": "none",
                 "clients": [
                     {
-                        "id": "$UUID"
+                        "id": "f23f7832-3c71-4294-9e65-dde63934dea4"
                     }
                 ]
             },
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                  "path": "$PATH"
+                  "path": "/ARSync"
                 }
             }
         }
